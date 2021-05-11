@@ -6,6 +6,7 @@
 </p>
 
 
+
 <p align="center">
     <img height="140em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=brennorichard&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
     <img height="140em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=brennorichard&layout=compact&langs_count=8&theme=dracula"/>
