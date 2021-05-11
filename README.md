@@ -1,4 +1,4 @@
-![topo](C:\Users\brenn\Downloads\topo.png)
+![topo](https://github.com/brennorichard/brennorichard/blob/main/assets/topo.png)
 
 
 
@@ -17,4 +17,4 @@
 </p>
 
 
-![rodape](C:\Users\brenn\Downloads\rodape.png)
+![rodape](https://github.com/brennorichard/brennorichard/blob/main/assets/rodape.png)
