@@ -1,5 +1,9 @@
-![topo](https://github.com/brennorichard/brennorichard/blob/main/assets/brenno.png)
 
+<p align="center">
+    <a href="gttps://github.com">
+        <img src="https://github.com/brennorichard/brennorichard/blob/main/assets/brenno.png"/>
+    </a>
+</p>
 
 
 <p align="center">
