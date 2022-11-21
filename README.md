@@ -1,4 +1,4 @@
-<h1> Brenno aqui! Tudo bem? </h1>
+<h1 align="center"> Brenno aqui! Tudo bem? </h1>
 
 <div align="center">
   <a href="https://github.com/brennorichard">
