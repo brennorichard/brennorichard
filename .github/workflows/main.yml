@@ -20,6 +20,8 @@ jobs:
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
+          # a personal token is needed for private contributions to show up in the grid
+          github_token: ${{ secrets.STATS_TOKEN || github.token }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
@@ -28,15 +30,7 @@ jobs:
       - name: Fix dist permissions
         run: sudo chown -R "$(id -u):$(id -g)" dist
 
-      # GitHub Stats cards (generated here instead of the rate-limited public Vercel instance)
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=react&include_all_commits=true&count_private=true
-          path: dist/stats.svg
-          token: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
-
+      # Top languages card (generated here instead of the rate-limited public Vercel instance)
       - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:

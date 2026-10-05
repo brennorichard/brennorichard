@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/brennorichard">
-  <img height="180em"   align="center" src="https://raw.githubusercontent.com/brennorichard/brennorichard/output/stats.svg"/>
+  <img height="180em"   align="center" alt="QA test run" src="https://raw.githubusercontent.com/brennorichard/brennorichard/main/assets/qa-card.svg"/>
   <img height="180em"  align="center" src="https://raw.githubusercontent.com/brennorichard/brennorichard/output/top-langs.svg" />
 
   <img align="center" width="148" height="180" src="https://raw.githubusercontent.com/brennorichard/brennorichard/main/assets/tenor.gif">
