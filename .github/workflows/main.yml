@@ -24,6 +24,10 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      # snk runs in Docker as root, so dist/ must be handed back to the runner user
+      - name: Fix dist permissions
+        run: sudo chown -R "$(id -u):$(id -g)" dist
+
       # GitHub Stats cards (generated here instead of the rate-limited public Vercel instance)
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
