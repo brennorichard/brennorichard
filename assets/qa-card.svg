@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-labelledby="t">
-<title id="t">brenno.spec.ts: 5 testes de QA passando</title>
+<title id="t">brenno.spec.ts: 4 testes passando, 1 falhando</title>
 <style>
 text{font:13px ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;fill:#ffffff}
 .title{font:600 13px "Segoe UI",Ubuntu,sans-serif;fill:#61dafb}
-.dim{fill:#858585}.cmd{fill:#61dafb}.txt{fill:#e6edf3}.ok{fill:#3fb950}.bold{font-weight:700;fill:#ffffff}
+.dim{fill:#858585}.cmd{fill:#61dafb}.txt{fill:#e6edf3}.ok{fill:#3fb950}.fail{fill:#f85149}.bold{font-weight:700;fill:#ffffff}
 .passbadge{font-weight:700;fill:#20232a}
 @keyframes l0{0%,2.9%{opacity:0;transform:translateX(-6px)}4.9%,94%{opacity:1;transform:none}100%{opacity:0}}.l0{animation:l0 14.0s ease-out infinite}@keyframes l1{0%,11.4%{opacity:0;transform:translateX(-6px)}13.4%,94%{opacity:1;transform:none}100%{opacity:0}}.l1{animation:l1 14.0s ease-out infinite}@keyframes l2{0%,17.9%{opacity:0;transform:translateX(-6px)}19.9%,94%{opacity:1;transform:none}100%{opacity:0}}.l2{animation:l2 14.0s ease-out infinite}@keyframes l3{0%,22.9%{opacity:0;transform:translateX(-6px)}24.9%,94%{opacity:1;transform:none}100%{opacity:0}}.l3{animation:l3 14.0s ease-out infinite}@keyframes l4{0%,27.9%{opacity:0;transform:translateX(-6px)}29.9%,94%{opacity:1;transform:none}100%{opacity:0}}.l4{animation:l4 14.0s ease-out infinite}@keyframes l5{0%,32.9%{opacity:0;transform:translateX(-6px)}34.9%,94%{opacity:1;transform:none}100%{opacity:0}}.l5{animation:l5 14.0s ease-out infinite}@keyframes l6{0%,37.9%{opacity:0;transform:translateX(-6px)}39.9%,94%{opacity:1;transform:none}100%{opacity:0}}.l6{animation:l6 14.0s ease-out infinite}@keyframes l7{0%,45.0%{opacity:0;transform:translateX(-6px)}47.0%,94%{opacity:1;transform:none}100%{opacity:0}}.l7{animation:l7 14.0s ease-out infinite}@keyframes cur{0%,45.0%{opacity:0}45.1%,94%{opacity:1}100%{opacity:0}}@keyframes blink{50%{fill-opacity:0}}.cursor{animation:cur 14.0s infinite}.cursor rect{animation:blink 1s steps(1) infinite}
 </style>
@@ -12,12 +12,12 @@ text{font:13px ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,mono
 <text class="title" x="247.5" y="22" text-anchor="middle">QA · brenno.spec.ts</text>
 <line x1="0.5" y1="32" x2="494.5" y2="32" stroke="#3a3f4b"/>
 <text class="l0" x="20" y="52" xml:space="preserve"><tspan class="dim">$ </tspan><tspan class="cmd">npm test</tspan></text>
-<g class="l1"><rect x="20" y="56" width="47" height="17" rx="3" fill="#3fb950"/><text x="20" y="68.5" xml:space="preserve"><tspan class="passbadge"> PASS </tspan><tspan class="txt">  perfil/brenno.spec.ts</tspan></text></g>
+<g class="l1"><rect x="20" y="56" width="47" height="17" rx="3" fill="#f85149"/><text x="20" y="68.5" xml:space="preserve"><tspan class="passbadge"> FAIL </tspan><tspan class="txt">  perfil/brenno.spec.ts</tspan></text></g>
 <text class="l2" x="20" y="85" xml:space="preserve"><tspan class="ok">  ✓ </tspan><tspan class="txt">encontra o bug antes do usuário</tspan></text>
 <text class="l3" x="20" y="101.5" xml:space="preserve"><tspan class="ok">  ✓ </tspan><tspan class="txt">escreve casos de teste claros</tspan></text>
 <text class="l4" x="20" y="118" xml:space="preserve"><tspan class="ok">  ✓ </tspan><tspan class="txt">valida a regressão a cada release</tspan></text>
-<text class="l5" x="20" y="134.5" xml:space="preserve"><tspan class="ok">  ✓ </tspan><tspan class="txt">registra evidências no Jira</tspan></text>
-<text class="l6" x="20" y="151" xml:space="preserve"><tspan class="ok">  ✓ </tspan><tspan class="txt">não aceita "na minha máquina funciona"</tspan></text>
-<text class="l7" x="20" y="167.5" xml:space="preserve"><tspan class="bold">Tests: </tspan><tspan class="ok">5 passed</tspan><tspan class="dim">, 5 total  ·  </tspan><tspan class="bold">Bugs em prod: </tspan><tspan class="ok">0</tspan></text>
+<text class="l5" x="20" y="134.5" xml:space="preserve"><tspan class="ok">  ✓ </tspan><tspan class="txt">registra evidências</tspan></text>
+<text class="l6" x="20" y="151" xml:space="preserve"><tspan class="fail">  ✕ </tspan><tspan class="fail">na minha máquina funciona</tspan></text>
+<text class="l7" x="20" y="167.5" xml:space="preserve"><tspan class="bold">Tests: </tspan><tspan class="fail">1 failed</tspan><tspan class="dim">, </tspan><tspan class="ok">4 passed</tspan><tspan class="dim">, 5 total  ·  </tspan><tspan class="bold">Bugs em prod: </tspan><tspan class="ok">0</tspan></text>
 <g class="cursor"><rect x="20" y="173" width="8" height="14" fill="#61dafb"/></g>
 </svg>

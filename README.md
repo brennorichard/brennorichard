@@ -2,8 +2,8 @@
 
 <div align="center">
   <a href="https://github.com/brennorichard">
-  <img height="180em"   align="center" alt="QA test run" src="https://raw.githubusercontent.com/brennorichard/brennorichard/main/assets/qa-card.svg"/>
-  <img height="180em"  align="center" src="https://raw.githubusercontent.com/brennorichard/brennorichard/output/top-langs.svg" />
+  <img height="180em"   align="center" alt="QA test run" src="https://raw.githubusercontent.com/brennorichard/brennorichard/main/assets/qa-card.svg?v=2"/>
+  <img height="180em"  align="center" src="https://raw.githubusercontent.com/brennorichard/brennorichard/output/top-langs.svg?v=2" />
 
   <img align="center" width="148" height="180" src="https://raw.githubusercontent.com/brennorichard/brennorichard/main/assets/tenor.gif">
 </div>
@@ -22,9 +22,9 @@
   <a href="https://www.linkedin.com/in/brennorichard/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> 
   
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/brennorichard/brennorichard/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/brennorichard/brennorichard/output/github-contribution-grid-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/brennorichard/brennorichard/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/brennorichard/brennorichard/output/github-contribution-grid-snake-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/brennorichard/brennorichard/output/github-contribution-grid-snake.svg?v=2" />
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/brennorichard/brennorichard/output/github-contribution-grid-snake.svg?v=2" />
   </picture>
  
 </div>
